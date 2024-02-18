@@ -1,0 +1,31 @@
+@font-face {
+  font-family: alarm clock;
+  src: url(/Lesson-53/fonts/alarm-clock.ttf);
+}
+
+body {
+  background-image: url(/Lesson-53/images/background-image.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#clockContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#clock{
+  font-family: alarm clock;
+  font-size: 6.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  backdrop-filter: blur(5px);
+  background-color: hsla(0, 0%, 100%, 0.1);
+  width: 100%;
+  border-radius: 50px;
+}
